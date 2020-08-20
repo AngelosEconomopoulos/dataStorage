@@ -11,3 +11,62 @@ body{
     font-size: 14px;
 }
 
+.attribution{
+    display: none;
+}
+
+.content{
+    background-image: url('./images/bg-mobile.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    padding: 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    height: 410px;
+    justify-content: space-evenly;
+}
+
+.card1{
+    background-color: hsl(228, 56%, 26%);
+    height: 200px;
+    width: 335px;
+    border-radius: 12px 100px 12px 12px;
+}
+
+.card2{
+    background-color:hsl(228, 56%, 26%);
+    height: 160px;
+    width: 335px;
+    border-radius: 12px;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px 60px 20px 20px;
+}
+.logo img{
+    padding: 40px 60px 10px 40px;
+}
+.icon{
+    background-color: hsl(229, 57%, 11%);
+}
+
+.icon img{
+    padding-left: 30px;
+    height: 20px;
+    widows: 15px;
+    
+}
+
+#first_icon{
+    padding-left: 25px;
+}
+
