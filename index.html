@@ -17,27 +17,32 @@
 </head>
 <body>
 
-  <div class="content">
-    <div class="cards">
+  <div class="container">
       <div class="card1">
         <div class="logo">
           <img src="./images/logo.svg" alt="logo">
         </div>
-        <div class="icons">
-          <div class="icon"><img id="first_icon" src="./images/icon-document.svg" alt="icon-document"></div>
-          <div class="icon"><img src="./images/icon-folder.svg" alt="icon-folder"></div>
-          <div class="icon"><img src="./images/icon-upload.svg" alt="icon-upload"></div>
+        <div class="buttons">
+          <button class="action_btn"><img id="first_icon" src="./images/icon-document.svg" alt="icon-document"></button>
+          <button class="action_btn"><img src="./images/icon-folder.svg" alt="icon-folder"></button>
+          <button class="action_btn"><img src="./images/icon-upload.svg" alt="icon-upload"></button>
         </div>
       </div>
       <div class="card2">
         <div class="bar">
-          <h2>You’ve used 815 GB of your storage</h2>
-          <h2>0 GB</h2>
-          <h2>1000 GB</h2>
+          <p>You’ve used 815 GB of your storage</p>
+          <div class="bar">
+            <div class="fill"></div>
+            <div class="ball"></div>
+            <p class="min">0 GB</p>
+            <p class="max">1000 GB</p>
+          </div>
+          <p class="usage_left">
+            <span class="whiteCard">185</span> GB LEFT
+          </p>
         </div>
-        <div class="whiteCard"><h1>185 GB Left</h1></div>
       </div>
-    </div>
+      <div class="background"></div>
   </div>
 
   <div class="attribution">
