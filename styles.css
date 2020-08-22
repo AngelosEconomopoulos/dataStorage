@@ -76,10 +76,19 @@ body{
    
 }
 
+.letters{
+    position: absolute;
+    bottom: 30px;
+    opacity: 0.5;
+}
+
 .number{
     color: #080925;
     font-size: 36px;
     font-weight: 700;
+    position: absolute;
+    left: 25px;
+    bottom: 16px;
 }
 
 .logo{
@@ -130,4 +139,15 @@ body{
     color: hsl(243, 100%, 93%);
     font-weight: 700;
     opacity: 0.9;
+}
+
+.ball{
+    width: 14px;
+    height: 14px;
+    border-radius: 9px;
+    background-color: white;
+    position: absolute;
+    top: 81.2px;
+    right: calc(24.3% + 4px);
+    z-index: 1323123;
 }
